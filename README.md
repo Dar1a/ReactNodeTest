@@ -14,3 +14,6 @@ Deployment details:
 3. ReactJs (assuming that ReactJs is already installed). I used steps from here: https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
 * Additional packages used in the scripts: axios.
 * Run "npm start" in ReactNodeSql/ReactJs/ folder.
+
+Assumptions:
+1. NodeJs and ReactJs apps have to run on the same machine as ReactJs has hardcoded links to backend like "http://localhost:5000".
