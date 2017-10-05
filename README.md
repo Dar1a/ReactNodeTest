@@ -17,3 +17,8 @@ Deployment details:
 
 Assumptions:
 1. NodeJs and ReactJs apps have to run on the same machine as ReactJs has hardcoded links to backend like "http://localhost:5000".
+
+Potential improvements:
+1. ReactJs app uses page reload for updating the view. It can be done w/o reloading;
+2. Requirement to make "bulk" insert of prices is implemented by backend but not by frontend (only update of prices happens in a "bulk" mode as was requested). Can be done by dynamically adding rows into "Add Price" table and then submitting all together;
+3. Validation of data should happen both on client and server sides. Currently only DB checks for invalid input parameters.
